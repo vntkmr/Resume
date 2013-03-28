@@ -35,55 +35,6 @@
 \def \name#1{\def\@name{#1}} % Defines the \name command to set name
 \def \@name {} % Sets \@name to empty by default
 
-% \def \addressSep {$\diamond$} % Set default address separator to a diamond
-% 
-% % One or two address lines can be specified 
-% \let \@addressone \relax
-% \let \@addresstwo \relax
-% 
-% % \address command can be used to set the first and second address (optional)
-% \def \address #1{
-%   \@ifundefined{@addresstwo}{
-%     \def \@addresstwo {#1}
-%   }{
-%     \def \@addressone {#1}
-%   }
-% }
-% 
-% % \printaddress is used to style an address line (given as input)
-% \def \printaddress #1{
-%   \begingroup
-%     \def \\ {\addressSep\ }
-%     \centerline{#1}
-%   \endgroup
-%   \par
-%   \addressskip
-% }
-% 
-% % \printname is used to print the name as a page header
-% \def \printname {
-%   \begingroup
-%     \hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
-%     \nameskip\break
-%   \endgroup
-% }
-% 
-% %----------------------------------------------------------------------------------------
-% %	PRINT THE HEADING LINES
-% %----------------------------------------------------------------------------------------
-% 
-% \let\ori@document=\document
-% \renewcommand{\document}{
-%   \ori@document  % Begin document
-%   \printname % Print the name specified with \name
-%   \@ifundefined{@addressone}{}{ % Print the first address if specified
-%     \printaddress{\@addressone}}
-%   \@ifundefined{@addresstwo}{}{ % Print the second address if specified
-%     \printaddress{\@addresstwo}}
-%    
-%     
-%     
-% }
 
 %----------------------------------------------------------------------------------------
 %	HEADER SECTION

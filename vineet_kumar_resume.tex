@@ -18,22 +18,24 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
+\newcommand{\matlab}{{\sc Matlab }}
+\newcommand{\mixten}{{\sc Mi\xten }}
+\newcommand{\xten}{{\sc X10 }}
+\newcommand{\discode}{{\sc Discode}}
 \documentclass{resume} % Use the custom resume.cls style
-\usepackage{hyperref}
+\usepackage[hyphens]{url}
+%\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
 \usepackage{setspace} 
 
 %\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \usepackage[left=0.2in,top=0.2in,right=1.8in,bottom=0.1in, marginparwidth=1.5in, marginparsep=0.2in]{geometry} % Document margins
 \usepackage{marginnote}
+
 \name{Vineet Kumar} % Your name
-% \address{\url{http://vineetkumar.net}} % Your address
-% \address{+1.514-663-6178 \\ vineet7kumar@gmail.com} % Your phone number and email
-
 \begin{document}
-
-\begin{hSubsection}{+1.514-970-9179, vineet7kumar@gmail.com}{\url{http://vineetkumar.net}}{3498 Rue Hutchison, Apt\#501, Montreal, QC, Canada - H2X 2G4}
- 
+\begin{hSubsection}{+1.514-970-9179, vineet.kumar@mail.mcgill.ca}
+{%\url{http://vineetkumar.net}
+}{3498 Rue Hutchison, Apt\#501, Montreal, QC, Canada - H2X 2G4}
 \end{hSubsection}
 
 
@@ -45,11 +47,13 @@ schools and companies in Computer Science      \smallskip\\}}}}}[0.0cm]
 \begin{rSection}{Summary}
 \smallskip
 \begin{lSubsection}
- \item M.Sc from \textbf{McGill University} with research in \textbf{Compilers and program analysis} supervised by \textbf{Prof. Laurie Hendren} and assistance by \textbf{X10 team at IBM Watson research}
- \item Extensive \textbf{programming experience(C and Java)} in all areas of static Compilers including design of new languages, program transformations and compiling dynamic languages
- \item 3 years of industry experience with \textbf{Infosys Technologies} in \textbf{consulting}, deployment \textbf{performance management for large-scale systems} and development(in C)
- \item Experience of working with a funded \textbf{e-commerce startup}, developing social network interfaces
- \item 1.5 years of internship with \textbf{Sun Microsystems} as \textbf{Student Tech Lead/Campus Ambassador, APAC region}
+ \item \textbf{M.Sc}, \textbf{McGill University} with research in \textbf{Compilers \& Program Analysis} under \textbf{Prof. Laurie Hendren}. 
+ %and assistance by \textbf{\xten team at IBM Thomas J. Watson Research Center}
+ \item 3 years of industry experience with \textbf{Infosys Technologies} in deployment \textbf{performance management for large-scale systems} and development(in C).
+ \item Internship with \textbf{Sun Microsystems} as \textbf{Student Tech Lead, APAC region/Campus Ambassador}.
+ \item Experience of working (part-time) with a funded \textbf{e-commerce startup}, developing social network interfaces.
+ \item Extensive \textbf{programming experience (C and Java)}.
+ \item Experience in all areas of static Compilers including program analysis and transformations, compiling dynamic languages and design of new languages.
  
 \end{lSubsection}
 \end{rSection}
@@ -66,17 +70,14 @@ Active participation in extra-curricular activities     \smallskip\\
  \begin{rSection}{Education}
 
 \begin{rSubsection}{McGill University}{August 2013 (expected)}{M.Sc. in Computer Science (CGPA: 3.56/4.00)}{Montreal, QC, Canada}
-
-\item Awarded the  \textbf{summer DFW scholarship for top performing} International Graduate students
-\item Gave a grad seminar on X10 and compiling MATLAB to X10
-
+\item Awarded the  \textbf{summer DFW scholarship for top performing} International Graduate students.
+\item Gave a grad seminar on \xten and compiling \matlab to \xten.
 \end{rSubsection}
 \begin{rSubsection}{SASTRA University}{June 2008}{B.Tech. in Computer Science \& Engineering (CGPA: 8.93/10.00)}{Thanjavur, India}
-
-\item Won the  \textbf{dean's list scholarship for being in the top 10\% }of the University 
-\item  \textbf{Co-founded and led} GLOSS(GNU Linux \& Open Source at SASTRA) club of the University
-\item  \textbf{Executive member and member of editorial team} of Student Association of School of Computer Science 
-
+\item For my B.Tech project, I developed \discode: A decompiler targeting C for OpeSolaris on x86.
+\item Won the  \textbf{dean's list scholarship for being in the top 10\% }of the University. 
+\item \textbf{Co-founded and led} GLOSS(GNU Linux \& Open Source at SASTRA) club of the University.
+\item \textbf{Executive member and member of editorial team} of Student Association of School of Computer Science. 
 \end{rSubsection}
 
 \end{rSection}
@@ -86,61 +87,46 @@ Active participation in extra-curricular activities     \smallskip\\
 %----------------------------------------------------------------------------------------
 \marginnote{{\textmd{\textsl{\scriptsize{\hrule  
 Reserach, Teaching, Compilers, Program analysis, Program transformation and optimization techniques, Program language design,Code generation, 
-C, Java, JastAdd, Flex, Bison, Beaver, MATLAB, X10      \smallskip\\}}}}}[0.541cm]%bad hack but works
+C, Java, JastAdd, Flex, Bison, Beaver, \matlab, \xten      \smallskip\\}}}}}[0.541cm]%bad hack but works
 \begin{rSection}{Experience}
 \begin{rSubsection}{McGill University}{September 2011 - Present}{Research and Teaching}{Montreal, QC, Canada}
 \item Research Assistant, \textbf{SABLE Lab} - My research interests include \textbf{program analysis \& transformation techniques} to compile dynamic 
 programming languages to static object-oriented and HPC languages. My research is \textbf{supervised by Professor Laurie Hendren}. As a part of my thesis 
-I am developing a \textbf{MATLAb to X10 (A new HPC language by IBM research) compiler backend}. I get direct assistance from \textbf{David Grove of IBM watson research centre}.   
-\item Teaching Assistant - COMP 621 Program Analysis and Transformations (Winter 2013) 
-\item Teaching Assistant - COMP 520 Compiler Design (Fall 2012)
-
+I am developing \mixten: a \textbf{\matlab to \xten (A new HPC language by IBM research) compiler}. I get direct assistance 
+from \textbf{\xten team at IBM Thomas J. Watson Research Center}.   
+\item Teaching Assistant - COMP 621 Program Analysis and Transformations (Winter 2013). 
+\item Teaching Assistant - COMP 520 Compiler Design (Fall 2012).
 \end{rSubsection}
 
 %------------------------------------------------
 \marginnote{{\textmd{\textsl{\scriptsize{\hrule 
-Management, Consulting, Software development, Software engineeering, SEO, Java, HP LoadRunner        \smallskip\\}}}}}[-0cm]
+Management, Software development, Software engineering, SEO, Java, HP LoadRunner        \smallskip\\}}}}}[-0cm]
 \begin{rSubsection}{Infosys Technologies Ltd.}{September 2008 - August 2011}{Senior Systems Engineer}{Pune, India}
-\item \textbf{Managed} the offshore \textbf{deployment performance management} consulting team for AT\&T online and mobility
-\item \textbf{Consulted on 8 projects} and they all exceeded performance targets under peak loads
-\item Contributed to the \textbf{SEO recommendation system} used by the \textbf{Infosys global marketing team}
+\item \textbf{Managed} the offshore \textbf{deployment performance management} team for AT\&T online and mobility.
+\item \textbf{Consulted on 8 projects} and they all exceeded performance targets under peak loads.
+\item Contributed to the \textbf{SEO recommendation system} used by the \textbf{Infosys global marketing team}.
 \end{rSubsection}
 
 %------------------------------------------------
 \marginnote{\textmd{\textsl{\scriptsize{\hrule e-commerce, startup, social network APIs, PHP, Apache, MySQL          \smallskip\\}}}}[0.0cm]
 \begin{rSubsection}{MySmartPrice}{October 2010 - July 2011}{Developer (part-time)}{Pune, India}
-\item MySmartPrice is an Indian \textbf{e-commerce startup} that provides a real-time price comparison engine for online stores. 
+\item MySmartPrice is an Indian \textbf{e-commerce startup} that provides a price comparison engine for online stores. 
 I worked with the founders over weekends and brainstormed design and implementation strategies
-\item I Wrote the initial \textbf{social network interfaces} for facebook and twitter 
+\item I Wrote the initial \textbf{social network interfaces} for facebook and twitter. 
 \end{rSubsection}
 
 \marginnote{\textmd{\textsl{\scriptsize{\hrule Teaching, Evangelism, Open Source culture, OpenSolaris         \smallskip\\}}}}[0.0cm]
-\begin{rSubsection}{Sun Microsystems}{January 2007 - May 2008}{Intern}{Bangalore, India}
-\item Student Tech Lead, APAC region \\
-- I was promoted from Campus Ambassador to one of \textbf{only 5 Tech Leads worldwide}\\
-- Conducted webinars and developed tutorials for Campus Ambassadors worldwide
-\item Campus Ambassador, India \\
-- One of \textbf{only 27} Campus Ambassadors across India\\
-- Taught a certificate course on \textbf{OpenSolaris}\\
-- Conducted several seminars on Open Solaris in SASTRA and nearby Colleges
+\begin{rSubsection}{Sun Microsystems}{January 2007 - May 2008}{Intern - Student Tech Lead, APAC region/Campus Ambassador}{Bangalore, India}
+%\item Student Tech Lead/Campus Ambassador, APAC region \\
+\item I was promoted from Campus Ambassador to one of \textbf{only 5 Tech Leads worldwide}.
+\item Conducted webinars and developed tutorials for Campus Ambassadors worldwide.
+%\item Campus Ambassador, India \\
+\item As a Campus Ambassador I was one of \textbf{only 27 Campus Ambassadors across India}.
+\item \textbf{Taught} a certificate course on \textbf{OpenSolaris}.
+\item Conducted several seminars on Open Solaris in SASTRA and nearby Colleges.
 \end{rSubsection}
-
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
-
-%\begin{rSection}{Technical Strengths}
-
-%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-%Computer Languages & C, Java, X10, MATLAB, PHP(basic), Perl(basic)\\
-%Compiler Tools & Flex, Bison, Beaver, JastAdd \\
-%Web Programming & Apache, MySQL, facebook API, twitter API \\
-%Other Tools & Eclipse, Vim, GCC, X10dt, \LaTeX, HP LoadRunner, SVN, Git\\
-%\end{tabular}
-
-%\end{rSection}
 %----------------------------------------------------------------------------------------
 %	PROJECTS SECTION
 %----------------------------------------------------------------------------------------
@@ -148,25 +134,26 @@ I worked with the founders over weekends and brainstormed design and implementat
 \begin{rSection}{Projects}
 \smallskip
 \begin{lSubsection}
-    \item Complex value analysis for MATLAB programs
-    \item Open source license recommendation engine
-    \item WIG compiler (in team of two)
-    \item Tweetinawhile -  a web-based tweet scheduler
-    \item Discode - a decompiler for Solaris on x86 targeting C
-    \item DotGyan - a server side search enhancement tool for web browsers
-    \item Damruu - RSS feed reader and chronologically based feed merger
+    \item isComplex value analysis for \matlab programs: Analysis to identify if a value is complex or real. 
+    \item Open source license recommendation engine.
+    \item WIG (a subset of \verb+<+bigwig\verb+>+ language) to PHP compiler (in team of two).
+    \item Tweetinawhile: A web-based tweet scheduler.
+    \item DotGyan: A server side search enhancement tool for web browsers.
+    \item Damruu: A RSS feed reader and chronologically based feed merger.
 \end{lSubsection}
 \end{rSection}
 
+\newpage
 %----------------------------------------------------------------------------------------
-%	EXAMPLE SECTION
+%	PUBLICATIONS SECTION
 %----------------------------------------------------------------------------------------
 
-%\begin{rSection}{Section Name}
-
-%Section content\ldots
-
-%\end{rSection}
+\begin{rSection}{Publications}
+\begin{rSubsection}{Technical Report}{}{}{}
+\item Vineet Kumar and Laurie Hendren. First steps to compiling \matlab to \textsc{X10}. Technical Report SABLE-TR-2013-1, School of Computer Science, McGill University, Mar. 2013.
+\url{http://www.sable.mcgill.ca/mclab/mix10/techrep.pdf}.
+\end{rSubsection}
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 
