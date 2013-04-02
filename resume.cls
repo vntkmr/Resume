@@ -26,8 +26,13 @@
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % Required for ifthenelse statements
 
-\pagestyle{empty} % Suppress page numbers
-
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy} 
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[C]{\small \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+\ \ \ \ \ \ \ \ \ \ \ \ \thepage\ of \pageref{LastPage}}
 %----------------------------------------------------------------------------------------
 %	HEADINGS COMMANDS: Commands for printing name and address
 %----------------------------------------------------------------------------------------
