@@ -152,11 +152,11 @@ TR-sable-2013-1, School of Computer Science, McGill University, Mar. 2013.
     \item isComplex value analysis for \matlab programs: Analysis to identify if a value is complex or real.
     (\href{https://github.com/Sable/mclab/tree/master/languages/Natlab/src/natlab/tame/valueanalysis/components/isComplex}{\em{url}}) 
     \item FreeMeLegal: An Open source license recommendation engine.
-    (\href{http://vineetkumar.net/freeMeLegal/free-me-legal_final_report.pdf}{\em{url}})
+    (\href{http://vineetkumar.net/freeMeLegal/free-me-legal_final_report.pdf}{url})
     \item WIG (a subset of \verb+<+bigwig\verb+>+ language) to PHP compiler (in team of two).
 %    \item Tweetinawhile: A web-based tweet scheduler.
     \item DotGyan: A server side browser independent search enhancement tool for web pages with textual content.
-    (\href{http://vineetkumar.net/dotgyan/}{\em{url}})
+    (\href{http://vineetkumar.net/dotgyan/}{url})
 %    \item Damruu: A RSS feed reader and chronologically based feed merger.
 \end{lSubsection}
 \end{rSection}
