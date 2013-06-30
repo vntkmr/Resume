@@ -1,8 +1,8 @@
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.2)  30 JUN 2013 23:31
 entering extended mode
  %&-line parsing enabled.
-**vineet_kumar_resume
-(./vineet_kumar_resume.tex
+**vineet_kumar_resume_1col
+(./vineet_kumar_resume_1col.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
@@ -206,8 +206,8 @@ Package: marginnote 2009/05/06 v1.1d non floating margin notes for LaTeX
 LaTeX Warning: Unused global option(s):
     [9pt].
 
-(./vineet_kumar_resume.aux)
-\openout1 = `vineet_kumar_resume.aux'.
+(./vineet_kumar_resume_1col.aux)
+\openout1 = `vineet_kumar_resume_1col.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
@@ -236,9 +236,9 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 
-(./vineet_kumar_resume.out) (./vineet_kumar_resume.out)
+(./vineet_kumar_resume_1col.out) (./vineet_kumar_resume_1col.out)
 \@outlinefile=\write3
-\openout3 = `vineet_kumar_resume.out'.
+\openout3 = `vineet_kumar_resume_1col.out'.
 
 \AtBeginShipoutBox=\box27
 
@@ -250,8 +250,8 @@ landscape: --
 twocolumn: --
 twoside: --
 asymmetric: --
-h-parts: 14.45377pt, 469.75502pt, 130.08621pt
-v-parts: 14.45377pt, 751.60867pt, 28.90755pt
+h-parts: 36.135pt, 542.02501pt, 36.135pt
+v-parts: 21.68121pt, 744.38123pt, 28.90755pt
 hmarginratio: --
 vmarginratio: --
 lines: --
@@ -265,16 +265,16 @@ driver: dvips
 -------------------- Page layout dimensions and switches
 \paperwidth  614.295pt
 \paperheight 794.96999pt
-\textwidth  469.75502pt
-\textheight 751.60867pt
-\oddsidemargin  -57.81622pt
-\evensidemargin -57.81622pt
-\topmargin  -94.81622pt
+\textwidth  542.02501pt
+\textheight 744.38123pt
+\oddsidemargin  -36.135pt
+\evensidemargin -36.135pt
+\topmargin  -87.58878pt
 \headheight 12.0pt
 \headsep    25.0pt
 \footskip   7.22743pt
-\marginparwidth 104.79128pt
-\marginparsep   7.22743pt
+\marginparwidth 65.0pt
+\marginparsep   11.0pt
 \columnsep  10.0pt
 \skip\footins  9.0pt plus 4.0pt minus 2.0pt
 \hoffset 0.0pt
@@ -285,48 +285,12 @@ driver: dvips
 -----------------------
 Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 (marginnote)             Extended position detection mode activated.
-Package marginnote Info: Margin note 1.1 is on absolute page 1
-(marginnote)              on input line 49.
-Package marginnote Info: right page because not two side mode on input line 49.
-
-Package marginnote Info: xpos seams to be 14.45377pt,
-(marginnote)             \marginnoterightadjust ignored on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 53.
-Package marginnote Info: Margin note 1.2 is on absolute page 1
-(marginnote)              on input line 71.
-Package marginnote Info: right page because not two side mode on input line 71.
-
-Package marginnote Info: xpos seams to be 14.45377pt,
-(marginnote)             \marginnoterightadjust ignored on input line 71.
-Package marginnote Info: Margin note 1.3 is on absolute page 1
-(marginnote)              on input line 92.
-Package marginnote Info: right page because not two side mode on input line 92.
-
-Package marginnote Info: xpos seams to be 14.45377pt,
-(marginnote)             \marginnoterightadjust ignored on input line 92.
-Package marginnote Info: Margin note 1.4 is on absolute page 1
-(marginnote)              on input line 105.
-Package marginnote Info: right page because not two side mode on input line 105
-.
-Package marginnote Info: xpos seams to be 14.45377pt,
-(marginnote)             \marginnoterightadjust ignored on input line 105.
-Package marginnote Info: Margin note 1.5 is on absolute page 1
-(marginnote)              on input line 113.
-Package marginnote Info: right page because not two side mode on input line 113
-.
-Package marginnote Info: xpos seams to be 14.45377pt,
-(marginnote)             \marginnoterightadjust ignored on input line 113.
-Package marginnote Info: Margin note 1.6 is on absolute page 1
-(marginnote)              on input line 120.
-Package marginnote Info: right page because not two side mode on input line 120
-.
-Package marginnote Info: xpos seams to be 14.45377pt,
-(marginnote)             \marginnoterightadjust ignored on input line 120.
 
 Package Fancyhdr Warning: \footskip is too small (7.22743pt): 
  Make it at least 7.69997pt.
@@ -335,21 +299,14 @@ Package Fancyhdr Warning: \footskip is too small (7.22743pt):
 
 [1
 
-]
-Package marginnote Info: Margin note 2.1 is on absolute page 2
-(marginnote)              on input line 149.
-Package marginnote Info: right page because not two side mode on input line 149
-.
-Package marginnote Info: xpos seams to be 14.45377pt,
-(marginnote)             \marginnoterightadjust ignored on input line 149.
- AED: lastpage setting LastPage [2] (./vineet_kumar_resume.aux) ) 
+] AED: lastpage setting LastPage [2] (./vineet_kumar_resume_1col.aux) ) 
 Here is how much of TeX's memory you used:
- 4218 strings out of 493849
- 62194 string characters out of 1152847
- 155071 words of memory out of 3000000
- 7446 multiletter control sequences out of 15000+50000
- 9201 words of font info for 32 fonts, out of 3000000 for 9000
+ 4204 strings out of 493849
+ 62109 string characters out of 1152847
+ 150979 words of memory out of 3000000
+ 7435 multiletter control sequences out of 15000+50000
+ 7843 words of font info for 28 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,10n,45p,286b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,10n,45p,291b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on vineet_kumar_resume.dvi (2 pages, 11736 bytes).
+Output written on vineet_kumar_resume_1col.dvi (2 pages, 11600 bytes).
