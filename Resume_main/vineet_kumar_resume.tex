@@ -20,7 +20,9 @@
 %----------------------------------------------------------------------------------------
 \newcommand{\matlab}{{\sc Matlab }}
 \newcommand{\mixten}{{\sc Mi\xten }}
+\newcommand{\mixtenx}{{\sc Mi\xten}}
 \newcommand{\xten}{{\sc X10 }}
+\newcommand{\xtenb}{{\textbf{\textsc{X10}}}}
 \newcommand{\discode}{{\sc Discode}}
 \documentclass{resume} % Use the custom resume.cls style
 \usepackage[hyphens]{url}
@@ -33,7 +35,7 @@
 %\usepackage[left=0.2in,top=0.2in,right=1.8in, bottom=0.4in, marginparwidth=1.45in, marginparsep=0.1in, footskip=0.1in]{geometry} % Document margins
 \usepackage{marginnote}
 
-\name{Vineet Kumar} % Your name
+\name{\textsc{Vineet} \textsc{Kumar}} % Your name
 \begin{document}
 \begin{hSubsection}{514-970-9179, vineet.kumar@mail.mcgill.ca}
 {%\url{http://vineetkumar.net}
@@ -43,121 +45,142 @@
 
 
 %----------------------------------------------------------------------------------------
-%	SUMMARY SECTION
+%SUMMARY SECTION
 %----------------------------------------------------------------------------------------
-%\marginnote{{\textmd{\textsl{\scriptsize{\hrule Associated with some of the best people, 
-%schools and companies in Computer Science      \smallskip\\}}}}}[0.541cm]
-\begin{rSection}{Summary}
-\smallskip
-\begin{lSubsection}
+%\marginnote{{\textmd{\textsl{\scriptsize{\hrule Associated with some of the
+%best people, schools and companies in Computer Science
+%\smallskip\\}}}}}[0.541cm]
+\begin{rSection}{Summary} \smallskip \begin{lSubsection} 
 \item Seeking a \textbf{full-time} software development position
-	\textbf{starting May 2014} (or later).
+\textbf{starting May 2014} (or later).  
 \item \textbf{M.Sc Computer Science}, McGill University $\vert$
-	\textbf{3+ years} of relevant \textbf{industry experience} in software
-	 development and programming (C and Java) $\vert$ Specialization in
-	 compiler design, program analysis and program transformations.
-  \item Interests - Compilers, Computer networks, Recommender systems, Social networks, E-commerce, High-performance computing. 
- %\item Skill set
-  \item Programming languages - \emph{Expert:} C, Java, \xten, \matlab
-$\vert$ \emph{Proficient:} PHP $\vert$ \emph{Prior experience:} Python, Javascript.	
-%  \begin{lsubSubsection}
-%  	\item Programming languages - \emph{Expert:} C, Java, \xten, \matlab
-% $\vert$ \emph{Proficient:} PHP $\vert$ \emph{Prior experience:} Python, Javascript.
-% % 	\item Software development - GNU/Linux, Windows 7 $\vert$ MySQL $\vert$ Eclipse $\vert$ GCC, OpenJDK 7, JUnit, GDB 
-% %		$\vert$ Git, SVN $\vert$ Vim, \LaTeX. 
-%  	\item Web development - Apache httpd, MySQL, HTML, JSON, XML, RSS,
-% SEO, Amazon EC2, \emph{APIs:} Facebook, Twitter and Paypal.
-%  	\item Compiler design tools - Flex, Bison, Beaver, JastAdd.
-%  \end{lsubSubsection}
+\textbf{3+ years} of \textbf{industry experience} in all aspects of software
+development.
+\item Extensive programming experience in \textbf{Java} and \textbf{C}.
+    %uncomment below if relevant $\vert$ Specialization in compiler design,
+    %program analysis and program transformations.
+\item Programming languages - \emph{Proficient:} {Java}, {C}, {\xten},
+\matlab
+$\vert$ \emph{Prior experience:} PHP, Python.
+%\item Interests - Compilers, Cloud computing, Recommender systems, Social
+%networks, E-commerce, Distributed systems. 
 \end{lSubsection}
 \end{rSection}
 
-
-%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-%\marginnote{{\textmd{\textsl{\scriptsize{\hrule Graduate courses - Compiler Design, 
-%Program Analysis and Transformations, Advanced Techniques for Compiling Dynamic Languages, Distributed Systems, Computer Networks, 
-%Recommendation Systems for Software Engineering         \smallskip\\
-%Active participation in extra-curricular activities     \smallskip\\ 
-%}}}}}[0.541cm]
- \begin{rSection}{Education}
+%-----------------------------------------------------------------------------
+ 
+\begin{rSection}{Education}
 
-\begin{rSubsection}{McGill University}{December 2013 (expected)}{M.Sc. in Computer Science (CGPA: 3.56/4.00)}{Montreal, QC, Canada}
-\item Won the summer differential fee waiver for the top-performing international students.
+\begin{rSubsection}{McGill University}{April 2014}{M.Sc. in
+Computer Science (CGPA: 3.56/4.00)}{Montreal, QC, Canada} 
+\item Won the {summer differential fee waiver} for being among the top-performing
+international students in the University.  
 \end{rSubsection}
-\begin{rSubsection}{SASTRA University}{June 2008}{B.Tech. in Computer Science \& Engineering (CGPA: 8.93/10.00)}{Thanjavur, India}
-\item Won the  \textbf{dean's list scholarship for being in the top 10\% }of the University. 
-\item \textbf{Co-founded and led} GLOSS(GNU Linux \& Open Source at SASTRA) club of the University.
-\item \textbf{Executive member and member of editorial team} of Student Association of School of Computer Science. 
+
+\begin{rSubsection}{SASTRA University}{June 2008}{B.Tech. in Computer Science \&
+Engineering (CGPA: 8.93/10.00)}{Thanjavur, India} 
+\item Won the {Dean's list scholarship} for being among the \textbf{top
+10\%} students in the University. 
+\item \textbf{Co-founded and led} GLOSS(GNU Linux \& Open Source at SASTRA) club
+of the University.  
+\item \textbf{Executive member and member of editorial team} of Student
+Association of School of Computer Science. 
 \end{rSubsection}
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	PUBLICATIONS SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \begin{rSection}{Publications and Talks}
 \smallskip
 \begin{lSubsection}
-\item Vineet Kumar and Laurie Hendren. \mixten: Compiling \matlab for high performance computing via \xten. 12\textsuperscript{th} \textbf{Compiler-Driven Performance Workshop} at \textbf{CASCON 2013}.(\href{http://webdocs.cs.ualberta.ca/~amaral/cascon/CDP13/#VinetKumar}{url - \em{bit.ly/1hXms8N}})
-\item Vineet Kumar and Laurie Hendren. First steps to compiling \matlab to
-\xten. In Proceedings of the 2013 ACM SIGPLAN X10 Workshop, \textbf{X10 `13}
-co-located with \textbf{PLDI
-2013}.(\href{http://www.sable.mcgill.ca/mclab/mix10/paper.pdf}{url - \em{bit.ly/18owBUI}})
+
+\item \emph{Publication:} Vineet Kumar and Laurie Hendren. First steps to
+compiling \matlab to \xten. In Proceedings of the 2013 ACM SIGPLAN X10 Workshop,
+\textbf{X10 `13} co-located with \textbf{PLDI
+2013}.(\href{http://www.sable.mcgill.ca/mclab/mix10/paper.pdf}{\em{bit.ly/18owBUI}})
+
+\item \emph{Talk:} Vineet Kumar and Laurie Hendren. \mixten: Compiling \matlab
+for high performance computing via \xten. 12\textsuperscript{th}
+\textbf{Compiler-Driven Performance Workshop} at \textbf{CASCON
+2013}.(\href{http://webdocs.cs.ualberta.ca/~amaral/cascon/CDP13/#VinetKumar}{\em{bit.ly/1hXms8N}}) 
+
 \end{lSubsection}
 \end{rSection}
 
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-%\marginnote{{\textmd{\textsl{\scriptsize{\hrule  
-%Reserach, Teaching, Compilers, Program analysis, Program transformation and optimization techniques, Program language design,Code generation, 
-%Java, MATLAB, JastAdd, Flex, Bison, Beaver, \matlab, \xten      \smallskip\\}}}}}[0.541cm]%bad hack but works
-\begin{rSection}{Experience}
-\begin{rSubsection}{McGill University}{January 2012 - Present}{Research and Teaching}{Montreal, QC, Canada}
-\item \textbf{Research Assistant, Sable Lab} - My research is about static compilation and program analysis for dynamic languages.
+%---------------------------------------------------------------------------
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{McGill University}{January 2012 - April 2014}{Research and
+Teaching}{Montreal, QC, Canada} 
+\item \textbf{Research Assistant, Sable Lab} - My research included program
+analysis and static compilation of dynamic languages.
+
 \begin{lsubSubsection}
-	\item Designed and developed a \textbf{\matlab compiler for high-performance computing} via \xten language under supervision from \textbf{Prof. Laurie Hendren} and with direct inputs from \textbf{\xten design team at IBM T.J. Watson research center}.
-	\item Achieved \textbf{20-40\% performance improvements} over commercial \matlab implementation (for sequential code).
-	\item Discovered a critical shortcoming in the \xten Java backend.
+  \item Designed and developed (\textbf{in Java}) \mixtenx: a {\matlab to
+\xten compiler for high-performance}, under \textbf{Prof.
+Laurie Hendren's} supervision and with direct inputs from the \textbf{\xten
+design team at the IBM T.J. Watson research
+center}.(\href{http://bit.ly/1sZ8aqJ}{\em{bit.ly/1sZ8aqJ}})  
+ \item Achieved \textbf{7 times (mean) faster} performance compared to the standard
+\matlab implementation.
+  \item Discovered \textbf{2 bugs} and a \textbf{severe performance bottleneck}
+in the \xten compiler.  
 \end{lsubSubsection}
 \item \textbf{Teaching Assistant} - Program Analysis and Transformations,
-	Compiler Design, Introduction to Computer Systems.
+	Compiler Design, and Introduction to Computer Systems.
 \end{rSubsection}
 
 %------------------------------------------------
 %\marginnote{{\textmd{\textsl{\scriptsize{\hrule 
-%Software development, Software engineering, Management, SEO, C, HP LoadRunner        \smallskip\\}}}}}[-0cm]
-\begin{rSubsection}{Infosys Technologies Ltd.}{September 2008 - August 2011}{Senior Systems Engineer}{Pune, India}
-\item \textbf{Led} a team of 4 for \textbf{deployment performance management} for AT\&T's online and mobility frontend and backend applications.
+%Software development, Software engineering, Management, SEO, C, HP LoadRunner
+%\smallskip\\}}}}}[-0cm]
+\begin{rSubsection}{Infosys Technologies Ltd.}{September 2008 - August
+2011}{Senior Systems Engineer}{Pune, India}
+\item \textbf{Led} a team of 4 for \textbf{deployment performance management}
+for AT\&T's online and mobility frontend and backend applications.
 \begin{lsubSubsection}
-\item My team's job was design and development of performance tests, analysis of results and troubleshooting performance issues.
-\item \textbf{Worked on 8 projects} and they all exceeded performance SLA under peak loads.
+\item My team's job was to design and develop (\textbf{in C}) performance
+test scripts, analyze results, and troubleshoot performance issues.  
+\item {Worked on 8 projects} and they all exceeded performance SLA under
+peak loads.
 \end{lsubSubsection}
-\item Part of the development team for \textbf{SEO recommendation system} used by the \textbf{Infosys global marketing team}.
+\item Part of the development team for the \textbf{SEO recommendation system} used
+by the \textbf{Infosys global marketing team}.  
 \end{rSubsection}
 
 %------------------------------------------------
-%\marginnote{\textmd{\textsl{\scriptsize{\hrule e-commerce, startup, social network APIs, PHP, Apache, MySQL          \smallskip\\}}}}[0.0cm]
-\begin{rSubsection}{MySmartPrice}{October 2010 - July 2011}{Developer (part-time)}{Pune, India}
-\item MySmartPrice is an Indian \textbf{e-commerce startup} that provides a price comparison engine for online stores. 
+%\marginnote{\textmd{\textsl{\scriptsize{\hrule e-commerce, startup, social
+%network APIs, PHP, Apache, MySQL          \smallskip\\}}}}[0.0cm]
+\begin{rSubsection}{MySmartPrice}{October 2010 - July 2011}{Developer
+(part-time)}{Pune, India} 
+\item MySmartPrice is an Indian \textbf{e-commerce startup} that provides a
+price comparison engine for online stores. 
 \begin{lsubSubsection}
-\item Helped the co-founders with designing the core crawler algorithm. 
-\item Wrote the initial \textbf{social network apps} for facebook and twitter.
+\item Contributed in the design and development of their core crawler algorithm. 
 \end{lsubSubsection}
 \end{rSubsection}
 
-%\marginnote{\textmd{\textsl{\scriptsize{\hrule Teaching, Evangelism, Open Source culture, OpenSolaris         \smallskip\\}}}}[0.0cm]
-\begin{rSubsection}{Sun Microsystems}{January 2007 - May 2008}{Intern - Student Tech Lead, APAC region/Campus Ambassador}{Bangalore, India}
+%\marginnote{\textmd{\textsl{\scriptsize{\hrule Teaching, Evangelism, Open
+%Source culture, OpenSolaris         \smallskip\\}}}}[0.0cm]
+\begin{rSubsection}{Sun Microsystems}{January 2007 - May 2008}{Intern - Student
+Tech Lead, APAC region/Campus Ambassador}{Bangalore, India}
 %\item Student Tech Lead/Campus Ambassador, APAC region \\
-\item Promoted from being one of \textbf{only 27 Campus Ambassador across India} to one of \textbf{only 5 Tech Leads worldwide}.
+\item Promoted from being one of the \textbf{only 27 Campus Ambassador across India}
+to one of the \textbf{only 5 Tech Leads worldwide}.  
 \begin{lsubSubsection}
-\item Conducted webinars and developed tutorials for Campus Ambassadors worldwide.
+\item Conducted webinars and developed tutorials for Campus Ambassadors
+worldwide.
 %\item Campus Ambassador, India \\
-%\item As a Campus Ambassador I was one of \textbf{only 27 Campus Ambassadors across India}.
+%\item As a Campus Ambassador I was one of \textbf{only 27 Campus Ambassadors
+%across India}.
 \item \textbf{Taught} a certificate course on \textbf{OpenSolaris}.
 \end{lsubSubsection}
 \end{rSubsection}
@@ -166,33 +189,58 @@ co-located with \textbf{PLDI
 
 
 %----------------------------------------------------------------------------------------
-%	PROJECTS SECTION
-%TODO discode, distributed systems, networking
-%----------------------------------------------------------------------------------------
-%\marginnote{\textmd{\textsl{\scriptsize{\hrule Data flow analysis, Open Source licenses, Compilers, Twitter API, OAuth, RSS, PHP, C, Javascript      \smallskip\\}}}}[0.541cm]
-\begin{rSection}{Other projects}
-\smallskip
-\begin{lSubsection}
+%PROJECTS SECTION TODO discode, distributed systems, networking
+%------------------------------------------------------------------------------
+\begin{rSection}{Other projects {\MakeLowercase{(top 3)}}}\smallskip \begin{lSubsection}
 %SHORTEN top=0.2in TO INCLUDE ANOTHER PROJECT
-	\item Discode: A decompiler for C on OpenSolaris for intel x86 (B.Tech
-project, individual).(\href{http://vineetkumar.net/discode/}{url - \em{bit.ly/15rZr2n}})
-    \item Analysis to identify complex numerical values for \matlab
-programs (COMP 621 Program analysis, individual).(\href{https://github.com/Sable/mclab/tree/master/languages/Natlab/src/natlab/tame/valueanalysis/components/isComplex}{url - \em{bit.ly/15SYKmC}}) 
-    \item FreeMeLegal: An Open source license recommendation engine (COMP 762
-Recommender systems, individual).(\href{http://vineetkumar.net/freeMeLegal/free-me-legal_final_report.pdf}{url - \em{bit.ly/19yjPkU}})
-    \item WIG (a subset of \verb+<+bigwig\verb+>+ language) to PHP compiler
-(COMP 520 Compiler design, team of two).
-    \item Performance Analysis and comparison of ZeroMQ and TCP (COMP 535
-Computer networks, team of three).
-    \item A fault-tolerant distributed travel reservation system (COMP 512
-Distributed systems, team of two). 	
-%    \item TweetInAWhile: A tweet scheduler.
-    \item DotGyan: A server side browser independent search enhancement tool for web pages with textual content (personal).(\href{http://vineetkumar.net/dotgyan/}{url - \em{bit.ly/14FUtBS}})
-%    \item Damruu: A RSS feed reader and chronologically based feed merger.
+  
+%\item Discode: A decompiler for C on OpenSolaris for intel x86 (B.Tech
+%project, individual).(\href{http://vineetkumar.net/discode/}{url -
+%\em{bit.ly/15rZr2n}}) 
+\item FreeMeLegal: An Open source license recommendation
+engine (COMP 762 Recommender systems,
+individual).(\href{http://bit.ly/1m030GV}{\em{bit.ly/1m030GV}}) 
+\begin{lsubSubsection}
+\item Recommendations based on similarities with the top projects on
+Sourceforge.net.
+\item Implemented a crawler (in {PHP}) to collect data for top projects 
+on Sourceforge.net.
+\end{lsubSubsection}
+%\item WIG (a subset of \verb+<+bigwig\verb+>+ language)
+%to PHP compiler (COMP 520 Compiler design, team of two).  
+\item Performance
+Analysis and comparison of ZeroMQ and TCP (COMP 535 Computer networks, team of
+three).(\href{http://bit.ly/1m0dcPE}{\em{bit.ly/1m0dcPE}})  
+\begin{lsubSubsection}
+\item Compared throughput and latency of a ZeroMQ based P2P chat system to that
+of a TCP based P2P chat system.
+\item Both the chat systems were implemented by us in Java.
+\end{lsubSubsection}
+
+\item Analysis to identify complex numerical values for \matlab programs (COMP
+621 Program analysis,
+individual).(\href{https://github.com/Sable/mclab/tree/master/languages/Natlab/src/natlab/tame/valueanalysis/components/isComplex}{\em{bit.ly/15SYKmC}}) 
+\begin{lsubSubsection}
+\item Developed a language to express information propagation through library
+function calls.(\href{http://bit.ly/1ezq93q}{\em{bit.ly/1ezq93q}})
+\item Accurate results for all the 20 benchmarks used by the 
+McLab project.   
+\end{lsubSubsection}
+
+%\item A fault-tolerant distributed travel reservation system (COMP 512
+%Distributed systems, team of two). 	
+%    
+%\item TweetInAWhile: A tweet scheduler.
+    
+%\item DotGyan: A server side browser independent search enhancement tool for
+%web pages with textual content
+%(personal).(\href{http://vineetkumar.net/dotgyan/}{\em{bit.ly/14FUtBS}})
+%    
+%\item Damruu: A RSS feed reader and chronologically based feed merger.
 
 \end{lSubsection}
 \end{rSection}
 %\newpage
 
-%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 \end{document}
