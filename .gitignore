@@ -1,3 +1,8 @@
 Resume_other
 *.log
+*.aux
+*.dvi
+*.out
+*.ps
+
 
