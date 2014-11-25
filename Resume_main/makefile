@@ -1,4 +1,4 @@
-all: pdf
+all: text
 
 dvi:
 # resume
@@ -17,6 +17,8 @@ pdf: ps
 #	ps2pdf vineet_kumar_resume.ps
 	ps2pdf vineet_kumar_resume.ps
 
+text: pdf
+	pdftotext -layout vineet_kumar_resume.pdf
 
 clean:
 	rm *.aux *.dvi *.out *.ps *.log 
