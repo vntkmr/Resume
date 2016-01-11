@@ -1,66 +1,79 @@
-VINEET KUMAR                                                         Contact: 514-970-9179, vineet.kumar@mail.mcgill.ca
-                                                          3498 Rue Hutchison, Apt#501, Montreal, QC, Canada - H2X 2G4
+VINEET KUMAR
+
+Contact: 514-970-9179, vineet.kumar@mail.mcgill.ca
+3498 Rue Hutchison, Apt#501, Montreal, QC, Canada - H2X 2G4
+
 SUMMARY
 · Seeking a full-time software development position starting Jan 2015 (or later).
 · M.Sc Computer Science, McGill University | 4+ years of relevant industry experience in software design and development.
 · Programming languages - Proficient: Java, C, X10 , Matlab | Prior experience: PHP, Python.
 
 WORK EXPERIENCE
-  ISENCORE Technologies                                                                                 September 2013 - Current
-  Lead Software Architect                                                                                  Montreal, QC, Canada
+ISENCORE Technologies
+September 2013 - Current
+Lead Software Architect
+Montreal, QC, Canada
 · As a part of the core founding team, I lead the software design and development efforts at the company.
-  · Won first prize in the Mcgill Dobson cup 2014 startup competition.
-  · Implemented (in C) the 3D object discretization module for Quirdity, ISENCORE’s 3D simulation engine.
-  · Developing (in Java/Play framework) the cloud-based delivery system for Quirdity.
-
-  McGill University                                                                                January 2012 - April 2014
-  Research and Teaching                                                                               Montreal, QC, Canada
+· Won first prize in the Mcgill Dobson cup 2014 startup competition.
+· Implemented (in C) the 3D object discretization module for Quirdity, ISENCORE’s 3D simulation engine.
+· Developing (in Java/Play framework) the cloud-based delivery system for Quirdity.
+McGill University
+January 2012 - April 2014
+Research and Teaching
+Montreal, QC, Canada
 · Research Assistant, Sable Lab - My research included program analysis and static compilation of dynamic languages.
-  · Designed and developed (in Java) MiX10 : a Matlab to X10 compiler for high-performance, under Prof. Laurie Hendren’s
-    supervision and with direct inputs from the X10 design team at the IBM T.J. Watson research center.(bit.ly/1sZ8aqJ)
-  · Achieved 7 times (mean) faster performance compared to the standard Matlab implementation.
-  · Discovered 2 bugs and a severe performance bottleneck in the X10 compiler.
+· Designed and developed (in Java) MiX10 : a Matlab to X10 compiler for high-performance, under Prof. Laurie Hendren’s
+supervision and with direct inputs from the X10 design team at the IBM T.J. Watson research center.(bit.ly/1sZ8aqJ)
+· Achieved 7 times (mean) faster performance compared to the standard Matlab implementation.
+· Discovered 2 bugs and a severe performance bottleneck in the X10 compiler.
 · Teaching Assistant - Program Analysis and Transformations, Compiler Design, and Introduction to Computer Systems.
-
-  Infosys Technologies Ltd.                                                                        September 2008 - August 2011
-  Senior Systems Engineer                                                                                             Pune, India
+Infosys Technologies Ltd.
+September 2008 - August 2011
+Senior Systems Engineer
+Pune, India
 · Led a team of 4 for deployment performance management for AT&T’s online and mobility frontend and backend applications.
-  · My team’s job was to design and develop (in C) performance test scripts, analyze results, and troubleshoot performance issues.
-  · Worked on 8 projects and they all exceeded performance SLA under peak loads.
-
-  Sun Microsystems                                                                            January 2007 - May 2008
-  Intern - Student Tech Lead, APAC region/Campus Ambassador                                            Bangalore, India
+· My team’s job was to design and develop (in C) performance test scripts, analyze results, and troubleshoot performance issues.
+· Worked on 8 projects and they all exceeded performance SLA under peak loads.
+Sun Microsystems
+January 2007 - May 2008
+Intern - Student Tech Lead, APAC region/Campus Ambassador
+Bangalore, India
 · Promoted from being one of the only 27 Campus Ambassador across India to one of the only 5 Tech Leads worldwide.
-  · Conducted webinars and developed tutorials for Campus Ambassadors worldwide.
-  · Taught a certificate course on OpenSolaris at the University.
+· Conducted webinars and developed tutorials for Campus Ambassadors worldwide.
+· Taught a certificate course on OpenSolaris at the University.
 
 PUBLICATIONS AND TALKS
 · Publication: Vineet Kumar and Laurie Hendren. MiX10 : Compiling Matlab to X10 for High Performance. In Proceedings of the
-  2014 ACM International Conference on Object Oriented Programming Systems Languages & Applications (OOPSLA
-  ‘14).(bit.ly/1sft0PU)
-· Talk: Vineet Kumar and Laurie Hendren. MiX10 : Compiling Matlab for high performance computing via X10 . 12th Compiler-
-  Driven Performance Workshop at CASCON 2013.(bit.ly/1hXms8N)
+2014 ACM International Conference on Object Oriented Programming Systems Languages & Applications (OOPSLA
+‘14).(bit.ly/1sft0PU)
+· Talk: Vineet Kumar and Laurie Hendren. MiX10 : Compiling Matlab for high performance computing via X10 . 12th CompilerDriven Performance Workshop at CASCON 2013.(bit.ly/1hXms8N)
 · Publication: Vineet Kumar and Laurie Hendren. First steps to compiling Matlab to X10 . In Proceedings of the 2013 ACM
-  SIGPLAN X10 Workshop, X10 ‘13 co-located with PLDI 2013.(bit.ly/18owBUI)
+SIGPLAN X10 Workshop, X10 ‘13 co-located with PLDI 2013.(bit.ly/18owBUI)
 
 EDUCATION
-  McGill University                                                                                                   April 2014
-  M.Sc. in Computer Science (CGPA: 3.56/4.00)                                                              Montreal, QC, Canada
+McGill University
+M.Sc. in Computer Science (CGPA: 3.56/4.00)
 · Master’s thesis reviewed as “Excellent” by the external reviewer.
 
-  SASTRA University                                                                                          June 2008
-  B.Tech. in Computer Science & Engineering (CGPA: 8.93/10.00)                                        Thanjavur, India
+April 2014
+Montreal, QC, Canada
+
+SASTRA University
+June 2008
+B.Tech. in Computer Science & Engineering (CGPA: 8.93/10.00)
+Thanjavur, India
 · Won the Dean’s list scholarship for being among the top 10% students in the University.
 · Co-founded and led GLOSS(GNU Linux & Open Source at SASTRA) club of the University.
 · Executive member and member of the editorial team of the Student Association of School of Computer Science.
 
 SELECTED OTHER PROJECTS
 · FreeMeLegal: An Open source license recommendation engine (COMP 762 Recommender systems, individual).(bit.ly/1m030GV)
-  · Recommendations based on similarities with the top projects on Sourceforge.net.
-  · Implemented a crawler (in PHP) to collect data for top projects on Sourceforge.net.
+· Recommendations based on similarities with the top projects on Sourceforge.net.
+· Implemented a crawler (in PHP) to collect data for top projects on Sourceforge.net.
 · Performance Analysis and comparison of ZeroMQ and TCP (COMP 535 Computer networks, team of three).(bit.ly/1m0dcPE)
-  · Implemented a ZeroMQ based P2P chat system and compared its throughput and latency to a TCP based P2P chat system.
+· Implemented a ZeroMQ based P2P chat system and compared its throughput and latency to a TCP based P2P chat system.
 · Analysis to identify complex numerical values for Matlab programs (COMP 621 Program analysis, individual).(bit.ly/15SYKmC)
-  · Developed a language to express information propagation through library function calls.(bit.ly/1ezq93q)
-  · Accurate results for all the 20 benchmarks used by the McLab project.
+· Developed a language to express information propagation through library function calls.(bit.ly/1ezq93q)
+· Accurate results for all the 20 benchmarks used by the McLab project.
+
 
