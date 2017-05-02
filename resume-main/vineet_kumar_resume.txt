@@ -20,6 +20,11 @@ Matlab.
 *INRO*, Montreal, QC, Canada
 December 2014 - present (2.5 years)
 
+- Contribute to research and development of Emme and CityPhi.
+  Emme is a travel demand modelling system for transportation forecasting.
+  CityPhi is a visual analytics software for large-scale spatial and mobility
+  data.
+
 - Built a new matrix calculator tool by writing a new parser and evaluator for
   Emme’s matrix expression language. (bit.ly/1N5geA8). It achieved 1.5x to 30x
   speedup depending on expression details and hardware resources. I also Built
