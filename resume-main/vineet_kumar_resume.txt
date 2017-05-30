@@ -8,11 +8,14 @@ Address: 917 Avenue de Melrose, Montreal, QC, Canada - H4A 2R3
 
 ### Summary
 
-6+ years of relevant experience in software design and development. | M.Sc
-Computer Science, McGill University.
+- Over 6.5 years of relevant work experience. | M.Sc Computer Science, McGill
+  University.
 
-Programming languages - Proficient: Python, C++, Java | Prior experience: X10,
-Matlab.
+- Programming languages - Proficient: Python, C++, Java | Prior experience:
+  X10, Matlab.
+
+- Skills and interests: System software, data analytics, distributed computing,
+  and web backend systems.
 
 ### Work Experience
 
