@@ -1,0 +1,8 @@
+I am a software developer with over 6.5 years of work experience and a Master's
+degree in Computer Science from McGill University. I have had a chance to work
+and learn with some very smart people at some of the world's best places, be it
+at McGill's compilers research lab where I built a MAtlab compiler and
+published in OOPSLA, or at Sun Microsystems where I interned as one of the five
+student tech leads in the world, and currently I work for INRO, where we build
+Emme, a transportation planning system that powers a majority of the world's
+most populous cities.  
