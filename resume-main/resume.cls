@@ -48,7 +48,7 @@
 
 \newenvironment{hSubsection}[3]{ % 4 input arguments - company name, year(s) employed, job title and location
  %{\bf #1} \hfill {#2} % Bold company name and date on the right
- {\raggedright{\MakeUppercase{\namesize\bf \@name}}} \hfill {\em #1}
+ {\raggedright{\MakeUppercase{\namesize\bf \@name}}} \hfill { #1}
  \ifthenelse{\equal{#1}{}}{}{ % If the first argument is not specified, don't print the job title and location line
   \\
   {\raggedright{#2}\hfill} \raggedleft{\em#3} % Italic job title and location
