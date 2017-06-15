@@ -39,12 +39,11 @@ December 2014 - present (2.5 years)
   used by clients to analyze and query things like loads, delays, and stop
   activities. (Python)
 
-- Designed and developed new Python API modules for Emme's Fortran backend
-  using Emme's macro language as interface. 
-
 - Designed and built Cityphi's data import backend and API to import geo and
   transport data from various formats like Shapefiles, OSM and GTFS.  Also work
   on optimizing and extending the core data backend. (C++ and Python)
+
+- Designed and developed new Python API modules for Emme's Fortran backend.
 
 **CTO and co-founder**
 *ISENCORE Technologies*, Montreal, QC, Canada
@@ -53,7 +52,8 @@ September 2013 - December 2014 (1 year 3 months)
 - Implemented the 3D object discretization module for Quirdity, ISENCORE’s 3D
   simulation engine (bit.ly/discretizer). (C++)
 
-- Won first prize in the Mcgill Dobson cup 2014 startup competition.
+- Won first prize with $10,000 in funding in the Mcgill Dobson cup (SME
+  category) 2014 startup competition.
 
 - Delivered the winning pitch to get selected as one of the 20 startups
   worldwide to present at SLUSH 2014.
