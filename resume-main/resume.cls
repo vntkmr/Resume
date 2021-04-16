@@ -67,7 +67,7 @@
   \sectionlineskip
   \hrule % Horizontal line
   \begin{list}{}{ % List for each individual item in the section
-  \small\setlength{\leftmargin}{1.5em} % Margin within the section
+  \small\setlength{\leftmargin}{1.0em} % Margin within the section
   }
   \item[]
  }{
